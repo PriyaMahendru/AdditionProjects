@@ -1,14 +1,16 @@
 package addition;
 
 public class Add {
-	
+	public static double c;
+	public static double sum;
 	public static void main(String args[])
 	{
-		double a=1;
-		double b=2;
-		double c=a+b;
-		System.out.println(c);
+		sum=add(3,4);
+		System.out.println(sum);
 		
 	}
-
+public static double add(double a,double b)
+{
+	return c=a+b;
+}
 }
